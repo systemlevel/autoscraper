@@ -25,6 +25,6 @@ setup(
     ],
     keywords="scraping - scraper",
     packages=find_packages(exclude=["contrib", "docs", "tests"]),
-    python_requires=">=3.6",
-    install_requires=["requests", "bs4", "lxml"],
+    python_requires=">=3.10",
+    install_requires=["requests>=2.34.2", "beautifulsoup4>=4.12.3,<4.13", "lxml>=6.1.0"],
 )
